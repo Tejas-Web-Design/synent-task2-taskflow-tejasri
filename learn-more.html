@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn More - TaskFlow</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+
+    html{
+      scroll-behavior:smooth;
+    }
+
+    body{
+      font-family:'Poppins',sans-serif;
+      background:
+      radial-gradient(circle at top left,#312e81,#0f172a 40%),
+      radial-gradient(circle at bottom right,#581c87,#0f172a 60%);
+      color:white;
+      line-height:1.8;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+      padding:60px 0;
+    }
+
+    .hero{
+      text-align:center;
+      padding:80px 0;
+    }
+
+    .hero h1{
+      font-size:3rem;
+      margin-bottom:20px;
+    }
+
+    .hero p{
+      max-width:700px;
+      margin:auto;
+      color:#cbd5e1;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:30px;
+      padding:14px 28px;
+      border-radius:10px;
+      text-decoration:none;
+      color:white;
+      background:linear-gradient(
+      45deg,
+      #8b5cf6,
+      #ec4899
+      );
+      background-size:200% 200%;
+      animation:gradientMove 4s ease infinite;
+    }
+
+    section{
+      margin-bottom:80px;
+    }
+
+    h2{
+      text-align:center;
+      margin-bottom:30px;
+      font-size:2rem;
+    }
+
+    .card{
+      background:rgba(255,255,255,0.06);
+      padding:30px;
+      border-radius:20px;
+      margin-bottom:25px;
+      backdrop-filter:blur(10px);
+    }
+
+    .card p{
+      color:#cbd5e1;
+    }
+
+    .screenshots{
+      text-align:center;
+    }
+
+    .screenshots img{
+      width:100%;
+      max-width:800px;
+      border-radius:20px;
+      margin-top:20px;
+    }
+
+    .faq-item{
+      background:rgba(255,255,255,0.06);
+      padding:25px;
+      border-radius:20px;
+      margin-bottom:20px;
+    }
+
+    .faq-item h3{
+      margin-bottom:10px;
+    }
+
+    .faq-item p{
+      color:#cbd5e1;
+    }
+
+    .cta{
+      text-align:center;
+      padding:60px 20px;
+      background:rgba(255,255,255,0.05);
+      border-radius:25px;
+    }
+
+    .cta p{
+      color:#cbd5e1;
+      margin:20px auto;
+      max-width:700px;
+    }
+
+    footer{
+      text-align:center;
+      padding:30px;
+      color:#94a3b8;
+    }
+
+    @keyframes gradientMove{
+
+      0%{
+        background-position:0% 50%;
+      }
+
+      50%{
+        background-position:100% 50%;
+      }
+
+      100%{
+        background-position:0% 50%;
+      }
+
+    }
+
+    @media(max-width:768px){
+
+      .hero h1{
+        font-size:2.2rem;
+      }
+
+      h2{
+        font-size:1.8rem;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <div class="container">
+
+
+<section class="hero">
+
+  <h1>Learn More About TaskFlow</h1>
+
+  <p>
+    Discover how TaskFlow helps individuals, startups, and teams
+    organize tasks, collaborate efficiently, and improve productivity.
+  </p>
+
+  <a href="index.html" class="btn">
+    ← Back to Home
+  </a>
+
+</section>
+
+<section>
+
+  <h2>About TaskFlow</h2>
+
+  <div class="card">
+
+    <p>
+      TaskFlow is a Software as a Service (SaaS) productivity platform
+      designed to simplify project management and team collaboration.
+      It provides a centralized workspace where users can organize
+      tasks, monitor progress, and achieve project goals efficiently.
+    </p>
+
+  </div>
+
+</section>
+
+<section>
+
+  <h2>Feature Explanations</h2>
+
+  <div class="card">
+
+    <h3>Task Management</h3>
+
+    <p>
+      Create, organize, prioritize, and track tasks through an
+      intuitive dashboard. Manage deadlines and maintain workflow
+      efficiency with ease.
+    </p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>Team Collaboration</h3>
+
+    <p>
+      Assign responsibilities, share updates, and collaborate with
+      team members in real time from a unified workspace.
+    </p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>Analytics & Insights</h3>
+
+    <p>
+      Monitor performance through visual reports and productivity
+      metrics that help teams make informed decisions.
+    </p>
+
+  </div>
+
+  <div class="card">
+
+    <h3>Cloud Accessibility</h3>
+
+    <p>
+      Access projects securely from anywhere using desktops, tablets,
+      or mobile devices without losing important data.
+    </p>
+
+  </div>
+
+</section>
+
+<section class="screenshots">
+
+  <h2>Platform Preview</h2>
+
+  <img src="images/image.png" alt="TaskFlow Dashboard">
+
+</section>
+
+<section>
+
+  <h2>Benefits of Using TaskFlow</h2>
+
+  <div class="card">
+
+    <p>
+      ✔ Improve team productivity and efficiency.
+      <br>
+      ✔ Organize projects from a centralized dashboard.
+      <br>
+      ✔ Track project progress in real time.
+      <br>
+      ✔ Collaborate effectively with distributed teams.
+      <br>
+      ✔ Access your work securely from anywhere.
+    </p>
+
+  </div>
+
+</section>
+
+<section>
+
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+
+    <h3>What is TaskFlow?</h3>
+
+    <p>
+      TaskFlow is a cloud-based task and project management platform
+      that helps teams organize work and improve productivity.
+    </p>
+
+  </div>
+
+  <div class="faq-item">
+
+    <h3>Who can use TaskFlow?</h3>
+
+    <p>
+      Students, freelancers, startups, and enterprises can use
+      TaskFlow to manage projects and daily tasks efficiently.
+    </p>
+
+  </div>
+
+  <div class="faq-item">
+
+    <h3>Is TaskFlow mobile friendly?</h3>
+
+    <p>
+      Yes. TaskFlow is fully responsive and accessible on desktops,
+      tablets, and smartphones.
+    </p>
+
+  </div>
+
+  <div class="faq-item">
+
+    <h3>Is my data secure?</h3>
+
+    <p>
+      TaskFlow uses secure cloud infrastructure and modern security
+      practices to protect user information.
+    </p>
+
+  </div>
+
+</section>
+
+<section class="cta">
+
+  <h2>Ready to Boost Your Productivity?</h2>
+
+  <p>
+    Join thousands of users who trust TaskFlow to manage tasks,
+    collaborate with teams, and achieve project goals faster.
+  </p>
+
+  <a href="index.html#contact" class="btn">
+    Get Started Today
+  </a>
+
+</section>
+
+
+  </div>
+
+  <footer>
+
+
+<p>
+  © 2026 TaskFlow. All Rights Reserved.
+</p>
+
+
+  </footer>
+
+</body>
+</html>
