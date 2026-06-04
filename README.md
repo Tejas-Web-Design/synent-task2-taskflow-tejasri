@@ -76,7 +76,7 @@ https://your-project-name.netlify.app
 
 ⚙️ Installation
 Clone the repository
-git clone https://github.com/yourusername/synent-task2-taskflow-tejasri.git
+git clone https://github.com/Tejas-Web-Design/synent-task2-taskflow-tejasri
 Open the project folder
 cd synent-task2-taskflow-tejasri
 Open index.html in your browser.
