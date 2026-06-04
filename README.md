@@ -54,13 +54,18 @@ Google Fonts (Poppins)
 
 📸 Screenshots
 
-Add screenshots of:
 
-Homepage
-Features Section
-Pricing Section
-Login Page
-Signup Page
+
+Homepage:  <img width="1918" height="897" alt="image" src="https://github.com/user-attachments/assets/2fca8d79-1888-4bca-8801-ece1aec9db0d" />
+
+Features:  <img width="1892" height="776" alt="image" src="https://github.com/user-attachments/assets/6862658f-28ee-45d0-bd94-9ef96adc1d23" />
+
+Pricing:  <img width="1895" height="871" alt="image" src="https://github.com/user-attachments/assets/4bed92eb-5a03-44e9-bcbb-443721090d29" />
+
+Login Page: <img width="1896" height="902" alt="image" src="https://github.com/user-attachments/assets/1a4f46c9-8599-45d7-9964-5d47db007361" />
+
+Signup Page: <img width="1841" height="890" alt="image" src="https://github.com/user-attachments/assets/dff61f3f-d0c3-465b-8714-e87e84e16388" />
+
 
 -----------------------------
 
