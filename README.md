@@ -71,11 +71,8 @@ Signup Page: <img width="1841" height="890" alt="image" src="https://github.com/
 
 🌐 Live Demo
 
-Add your deployed project link here.
 
-Example:
-
-https://your-project-name.netlify.app
+https://synent-task2-taskflow-tejasri.netlify.app/
 
 --------------------------
 
